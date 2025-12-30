@@ -106,7 +106,7 @@ const Hero: React.FC = () => {
       {/* Hero Content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
         <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-yonsei-light/30 bg-yonsei-blue/20 backdrop-blur-md text-yonsei-light font-semibold text-sm tracking-widest uppercase animate-fade-in-up">
-          Yonsei University Like Lion
+          Yonsei University LikeLion 14th
         </div>
         
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 tracking-tighter leading-tight animate-fade-in-up delay-100">

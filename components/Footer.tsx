@@ -15,13 +15,13 @@ const Footer: React.FC = () => {
               연세대학교 멋쟁이사자처럼 14기
             </p>
             <div className="flex justify-center md:justify-start gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-likelion-orange hover:text-white transition-colors">
+              <a href="https://www.instagram.com/likelion_yonsei" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-likelion-orange hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-likelion-orange hover:text-white transition-colors">
                 <Globe size={20} />
               </a>
-              <a href="mailto:yonsei@likelion.org" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-likelion-orange hover:text-white transition-colors">
+              <a href="mailto:ehho0916@yonsei.ac.kr" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-likelion-orange hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>

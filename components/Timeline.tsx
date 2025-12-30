@@ -3,27 +3,27 @@ import { TimelineItem } from '../types';
 
 const timelineData: TimelineItem[] = [
   {
-    date: '02.19 (월) ~ 03.03 (일)',
+    date: '02.19 (목) ~ 02.25 (수)',
     title: '서류 접수',
     description: '구글 폼을 통해 지원서를 제출합니다. 시간을 엄수해주세요.'
   },
   {
-    date: '03.06 (수)',
+    date: '03.02 (화)',
     title: '1차 합격자 발표',
     description: '서류 심사 합격자에 한해 개별 문자로 면접 일정을 안내드립니다.'
   },
   {
-    date: '03.08 (금) ~ 03.10 (일)',
+    date: '03.05 (목) ~ 03.06 (금)',
     title: '면접 진행',
     description: '연세대학교 신촌캠퍼스에서 대면 면접이 진행됩니다.'
   },
   {
-    date: '03.13 (수)',
+    date: '03.11 (수)',
     title: '최종 합격자 발표',
     description: '14기 아기사자로 함께할 최종 합격자를 발표합니다.'
   },
   {
-    date: '03.16 (토)',
+    date: '03.13 (금)',
     title: '14기 오리엔테이션',
     description: '모든 합격자는 필수로 참석해야 합니다.'
   }
