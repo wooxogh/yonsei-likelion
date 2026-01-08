@@ -18,12 +18,12 @@ const timelineData: TimelineItem[] = [
     description: '연세대학교 신촌캠퍼스에서 대면 면접이 진행됩니다.'
   },
   {
-    date: '03.11 (수)',
+    date: '03.09 (월)',
     title: '최종 합격자 발표',
     description: '14기 아기사자로 함께할 최종 합격자를 발표합니다.'
   },
   {
-    date: '03.13 (금)',
+    date: '03.12 (목)',
     title: '14기 오리엔테이션',
     description: '모든 합격자는 필수로 참석해야 합니다.'
   }
