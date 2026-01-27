@@ -15,6 +15,8 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: '소개', href: '#about' },
+    { name: '프로젝트', href: '#projects' },
+    { name: '활동', href: '#activities' },
     { name: '트랙', href: '#tracks' },
     { name: '일정', href: '#timeline' },
     { name: 'FAQ', href: '#faq' },
@@ -34,7 +36,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6 lg:gap-8">
           {navLinks.map((link) => (
             <a 
               key={link.name} 
@@ -65,12 +67,12 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-lg border-b border-white/10 p-6 flex flex-col gap-4 animate-fade-in-down">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-lg border-b border-white/10 p-6 flex flex-col gap-4 animate-fade-in-down h-screen">
           {navLinks.map((link) => (
             <a 
               key={link.name} 
               href={link.href}
-              className="text-gray-300 hover:text-white text-lg font-medium"
+              className="text-gray-300 hover:text-white text-lg font-medium py-2 border-b border-white/5"
               onClick={() => setIsMenuOpen(false)}
             >
               {link.name}
@@ -78,7 +80,7 @@ const Navbar: React.FC = () => {
           ))}
           <a 
             href="https://forms.google.com" 
-            className="bg-likelion-orange text-white px-5 py-3 rounded-lg text-center font-bold"
+            className="bg-likelion-orange text-white px-5 py-3 rounded-lg text-center font-bold mt-4"
             onClick={() => setIsMenuOpen(false)}
           >
             14기 지원하기
